@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #004c4c, #00b3b3);
+  color: white;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: transparent;
+}
+
+nav .logo {
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#Home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+
+.socials a img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: white;
+  color: #004c4c;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #006666;
+}
+
+.about-text {
+  max-width: 40%;
+  margin-right: 15%;
+  margin-right: 40px;
+  padding-right: 40px;
+  
+}
+.about-text p{
+
+  font-size: larger;
+}
+
+.skills img {
+  max-width: 700px;
+}
+
+#projects {
+  padding: 2rem;
+  background-color: #007777;
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-description {
+  max-width: 40%;
+
+}
+.project-description p{
+  font-size: larger;
+  
+}
+
+.project-image img {
+  max-width: 250px;
+  display: block;
+  margin-bottom: 1rem;
+  margin-left: 40px;
+
+}
+
+
+.video img {
+  max-width: 150px;
+  margin-right: 10px;
+  
+}
+.vedio p{
+  font-size: small;
+  margin-left: 50px;
+  
+}
+
+
+#contact {
+  padding: 60px 50px;
+  text-align: center;
+  background-color: #006666;
+}
+
+form {
+  max-width: 700px;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  background: #cae9fbac;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+textarea {
+  resize: none;
+  margin-bottom: 20px;
+}
+
+#contact button{
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: white;
+  color: #004c4c;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  
+  
+}
